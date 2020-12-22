@@ -29,7 +29,7 @@ if (process.env.NODE_ENV === "production") {
 const whitelist = [
   "http://localhost:3000",
   "http://localhost:5000",
-  "https://git.heroku.com/mighty-shore-95069.git",
+  "https://git.heroku.com/whispering-sierra-93484.git",
 ];
 
 const corsOptions = {
