@@ -29,7 +29,7 @@ if (process.env.NODE_ENV === "production") {
 const whitelist = [
   "http://localhost:3000",
   "http://localhost:5000",
-  "https://",
+  "https://git.heroku.com/sheltered-beyond-15920.git",
 ];
 
 const corsOptions = {
