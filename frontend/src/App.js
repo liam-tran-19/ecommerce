@@ -6,9 +6,9 @@ import { AdminScreen } from "./screens/AdminScreen";
 import { SigninScreen } from "./screens/SigninScreen";
 import { RegisterScreen } from "./screens/RegisterScreen";
 import { SearchBox } from "./screens/SearchBox";
-import "../node_modules/font-awesome/css/font-awesome.min.css";
 import { signout } from "./actions/userAction";
 import { searchProduct } from "./actions/productActions";
+import Footer from "./screens/Footer";
 
 export const App = () => {
   const userSignin = useSelector((state) => state.userSignin);
@@ -68,7 +68,9 @@ export const App = () => {
           <Route path="/register" component={RegisterScreen} />
           <Route path="/" component={HomeScreen} exact />
         </main>
-        <footer>All right is reserved.</footer>
+        <footer className="footer">
+          <Footer />
+        </footer>
       </div>
     </BrowserRouter>
   );

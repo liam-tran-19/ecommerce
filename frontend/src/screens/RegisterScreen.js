@@ -20,7 +20,11 @@ export const RegisterScreen = (props) => {
 
   const submitHandler = (e) => {
     e.preventDefault();
-    dispatch(register(name, email, password));
+    if (password !== rePassword) {
+      alert("Password and confirm password are not match");
+    } else {
+      dispatch(register(name, email, password));
+    }
   };
   return (
     <div className="form-signin">

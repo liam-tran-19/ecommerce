@@ -12,17 +12,17 @@ const path = require("path");
 
 app.use(bodyParser.json());
 
-app.use(express.static(path.join(__dirname, "/frontend/build")));
-app.get("*", (req, res) =>
-  res.sendFile(path.join(__dirname, "/frontend/build/index.html"))
-);
+// app.use(express.static(path.join(__dirname, "/frontend/build")));
+// app.get("*", (req, res) =>
+//   res.sendFile(path.join(__dirname, "/frontend/build/index.html"))
+// );
 
 app.use("/ecommerce/products", productRoute);
 app.use("/ecommerce/orders", orderRoute);
 app.use("/ecommerce/users", userRoute);
 
 mongoose.connect(
-  process.env.MONGODB_URL || "mongodb://localhost/ecommerce-reactjs",
+  process.env.MONGODB_URI || "mongodb://localhost/ecommerce-reactjs",
   {
     useNewUrlParser: true,
     useCreateIndex: true,

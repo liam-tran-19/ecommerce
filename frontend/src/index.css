@@ -5,6 +5,7 @@
   --pink-bold: #f74046;
   --text-dark: #203040;
   --background: #fff;
+  --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
 }
 
 html {
@@ -79,14 +80,14 @@ main {
   grid-area: main;
 }
 
-footer {
+/* footer {
   grid-area: footer;
   background-color: #203040;
   color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .content {
   display: flex;
@@ -423,4 +424,108 @@ th {
 /* Cart menu */
 .cart-menu {
   margin: auto 2rem;
+}
+
+/* footer */
+footer.footer{
+  height: 100%;
+  background: var(--text-dark);
+  position: relative;
+}
+
+footer.footer .container{
+  display: flex;
+  grid-template-columns: repeat(4, 1fr);
+  background: var(--text-dark);
+  justify-content: space-between;
+}
+
+footer.footer .container > div{
+  flex-grow: 1;
+  flex-basis: 0;
+  padding: 2rem 5rem;
+}
+
+footer.footer .container h2{
+  color: #ffffff;
+}
+
+footer.footer .newsletter .form-element{
+  background: black;
+  display: inline-block;
+}
+
+footer.footer .newsletter .form-element input{
+  padding: .5rem .7rem;
+  border: none;
+  background: transparent;
+  color: #ffffff;
+  font-size: 1rem;
+  width: 74%;
+}
+
+footer.footer .newsletter .form-element span{
+  background: var(--sky);
+  padding: .5rem .7rem;
+  cursor: pointer;
+}
+
+footer.footer .instagram div > img{
+  display: inline-block;
+  width: 25%;
+  height: 50%;
+  margin: .3rem .4rem;
+}
+
+footer.footer .follow div i{
+  color: white;
+  padding: 0 .4rem;
+}
+
+footer.footer .rights{
+  background: var(--text-dark);
+  justify-content: center;
+  margin: 0 0;
+}
+
+footer.footer .rights h4 {
+  color: #bbbbbb;
+}
+
+footer.footer .move-up{
+  position: absolute;
+  right: 6%;
+  top: 50%;
+}
+
+footer.footer p {
+  color: #bbbbbb
+}
+
+footer.footer .move-up span{
+  color: var(--sky);
+}
+
+footer.footer .move-up span:hover{
+  color: var(--sky);
+  cursor: pointer;
+}
+
+footer.footer .icon a{
+  color: #ffffff;
+  padding: 0 0.5rem;
+}
+footer.footer .icon a:hover{
+  color: var(--pink-bold);
+}
+
+footer.footer .move-up {
+  color: var(--pink);
+
+}
+
+.flex-row{
+  display: flex;
+  flex-direction: row;    
+  flex-wrap: wrap;
 }
