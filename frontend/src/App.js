@@ -9,7 +9,6 @@ import { SearchBox } from "./screens/SearchBox";
 import { signout } from "./actions/userAction";
 import { searchProduct } from "./actions/productActions";
 import Footer from "./screens/Footer";
-import SiteBackground from "./screens/SiteBackground";
 import logo from "./assets/logo.png";
 
 export const App = () => {
@@ -69,11 +68,10 @@ export const App = () => {
           </div>
         </header>
         <main className="main">
-          <SiteBackground />
           <Route path="/admin" component={AdminScreen} />
           <Route path="/signin" component={SigninScreen} />
           <Route path="/register" component={RegisterScreen} />
-          <Route path="/" component={HomeScreen} exact />
+          <Route path="/" component={HomeScreen } exact />
         </main>
         <footer className="footer">
           <Footer />
