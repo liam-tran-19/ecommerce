@@ -9,6 +9,8 @@ import { SearchBox } from "./screens/SearchBox";
 import { signout } from "./actions/userAction";
 import { searchProduct } from "./actions/productActions";
 import Footer from "./screens/Footer";
+import SiteBackground from "./screens/SiteBackground";
+import logo from "./assets/logo.png";
 
 export const App = () => {
   const userSignin = useSelector((state) => state.userSignin);
@@ -29,7 +31,11 @@ export const App = () => {
       <div className="grid-container">
         <header className="row">
           <div>
-            <Link to="/">Rommache</Link>
+            <Link to="/">
+              {" "}
+              <img src={logo} className="logo" />
+              Rommache
+            </Link>
           </div>
           <div className="search-div">
             <SearchBox onSubmit={handleSubmitForm}></SearchBox>
@@ -63,6 +69,7 @@ export const App = () => {
           </div>
         </header>
         <main className="main">
+          <SiteBackground />
           <Route path="/admin" component={AdminScreen} />
           <Route path="/signin" component={SigninScreen} />
           <Route path="/register" component={RegisterScreen} />
