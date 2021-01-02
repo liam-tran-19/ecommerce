@@ -8,7 +8,6 @@ import {
 
 export const productsReducer = (state = {}, action) => {
   switch (action.type) {
-    
     case FILTER_PRODUCTS_BY_SIZE:
       return {
         ...state,
@@ -24,6 +23,7 @@ export const productsReducer = (state = {}, action) => {
       };
 
     case FETCH_PRODUCTS:
+      console.log(action.payload);
       return { items: action.payload, filteredItems: action.payload };
 
     case SEARCH_PRODUCTS_BY_NAME:

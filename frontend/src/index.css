@@ -606,3 +606,30 @@ footer.footer .move-up {
   flex-direction: row;    
   flex-wrap: wrap;
 }
+
+/* Pagination */
+.pagination {
+  justify-content: center;
+  display: flex;
+  padding-bottom: 5rem;
+}
+
+.page-item {
+  margin: 0 0.1rem;
+}
+
+.page-item button {
+  border: 0;
+  background:transparent;
+}
+.page-item button:focus{
+  outline:none;
+}
+.current button{
+  color:var(--pink);
+  border-bottom: 1px solid black;
+}
+
+.page-item button:hover{
+  background: rgb(187, 187, 187);
+}
