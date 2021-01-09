@@ -22,8 +22,8 @@ app.use("/ecommerce/orders", orderRoute);
 app.use("/ecommerce/users", userRoute);
 
 mongoose.connect(
-  // process.env.MONGODB_URI || "mongodb://localhost/ecommerce-reactjs",
-  "mongodb+srv://123:123@cluster0.q8gll.mongodb.net/ecommerce?retryWrites=true&w=majority",
+  process.env.MONGODB_URI || "mongodb://localhost/ecommerce-reactjs",
+  // "mongodb+srv://123:123@cluster0.q8gll.mongodb.net/ecommerce?retryWrites=true&w=majority",
   {
     useNewUrlParser: true,
     useCreateIndex: true,
