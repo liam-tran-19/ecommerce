@@ -1,0 +1,168 @@
+[
+  {
+    "availableSizes": ["S", "M", "X"],
+    "_id": "4BmnaZgUY",
+    "gender": "women",
+    "image": "https://res.cloudinary.com/western-university/image/upload/v1609558317/girl4_ohtfhg.jpg",
+    "title": "Black Shirt Long Hands",
+    "description":
+      "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
+    "price": 28.5,
+    "__v": 0
+  },
+  {
+    "availableSizes": ["S", "M", "L", "X", "XL"],
+    "_id": "8IzrxV80F",
+    "gender": "men",
+    "image": "https://res.cloudinary.com/western-university/image/upload/v1609558322/guy9_tqa1qs.jpg",
+    "title": "Grey Jeans With Black Birds",
+    "description":
+      "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
+    "price": 29.9,
+    "__v": 0
+  },
+  {
+    "availableSizes": ["S", "M", "L"],
+    "_id": "Y-ThFV-lK",
+    "gender": "women",
+    "image": "https://res.cloudinary.com/western-university/image/upload/v1609558318/girl1_q7nilx.jpg",
+    "title": "Blue Shirt Long Hands",
+    "description":
+      "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
+    "price": 26.8,
+    "__v": 0
+  },
+  {
+    "availableSizes": ["M", "L", "X", "XL"],
+    "_id": "i7cod6qXA",
+    "gender": "women",
+    "image": "https://res.cloudinary.com/western-university/image/upload/v1609558318/girl2_mqsim1.jpg",
+    "title": "Pink Heart Long Hands",
+    "description":
+      "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
+    "price": 49.7,
+    "__v": 0
+  },
+  {
+    "availableSizes": ["S", "M", "L", "XL"],
+    "_id": "v7b2kXqwl",
+    "gender": "men",
+    "image": "https://res.cloudinary.com/western-university/image/upload/v1609558322/guy1_pajfto.jpg",
+    "title": "Short Shirt Green White",
+    "description":
+      "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
+    "price": 27.3,
+    "__v": 0
+  },
+  {
+    "availableSizes": ["S", "L", "X", "XL"],
+    "_id": "tRMC6CNnO",
+    "gender": "men",
+    "image": "https://res.cloudinary.com/western-university/image/upload/v1609558321/guy7_rnqbqn.jpg",
+    "title": "Korean Blue Jeans",
+    "description":
+      "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
+    "price": 39.6,
+    "__v": 0
+  },
+  {
+    "availableSizes": ["M", "L", "X"],
+    "_id": "C75NBDTwj",
+    "gender": "men",
+    "image": "https://res.cloudinary.com/western-university/image/upload/v1609558321/guy10_hcqbwp.jpg",
+    "title": "Black Long Shirt",
+    "description":
+      "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
+    "price": 31.5,
+    "__v": 0
+  },
+  {
+    "availableSizes": ["S", "M", "XL"],
+    "_id": "jVeMRZvzi",
+    "gender": "men",
+    "image": "https://res.cloudinary.com/western-university/image/upload/v1609558321/guy10_hcqbwp.jpg",
+    "title": "White Shirt And Black Hat",
+    "description":
+      "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
+    "price": 42.5,
+    "__v": 0
+  },
+  {
+    "availableSizes": ["S", "M", "XL"],
+    "_id": "mYvwHDy7Y",
+    "gender": "men",
+    "image": "https://res.cloudinary.com/western-university/image/upload/v1609558321/guy8_alyzhp.jpg",
+    "title": "Brown Hoodie",
+    "description":
+      "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
+    "price": 48.6,
+    "__v": 0
+  },
+  {
+    "availableSizes": ["S", "M", "L"],
+    "_id": "a-wNXktl_",
+    "gender": "men",
+    "image": "https://res.cloudinary.com/western-university/image/upload/v1609558321/guy4_fimglb.jpg",
+    "title": "White Hoodie",
+    "description":
+      "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
+    "price": 51.5,
+    "__v": 0
+  },
+  {
+    "availableSizes": ["S", "M", "L"],
+    "_id": "LUzDydquv",
+    "gender": "men",
+    "image": "https://res.cloudinary.com/western-university/image/upload/v1609558321/guy6_vhc5vp.jpg",
+    "title": "Peanuts Shirt And Joggers",
+    "description":
+      "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
+    "price": 68.5,
+    "__v": 0
+  },
+  {
+    "availableSizes": ["L", "X", "XL"],
+    "_id": "HwUKcaZE2",
+    "gender": "men",
+    "image": "https://res.cloudinary.com/western-university/image/upload/v1609558321/guy2_e838g4.jpg",
+    "title": "Read Dark Short Hand Shirt",
+    "description":
+      "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
+    "price": 24.5,
+    "__v": 0
+  },
+  {
+    "availableSizes": ["S", "M", "L", "X"],
+    "_id": "D7Pf3EprH",
+    "gender": "men",
+    "image": "https://res.cloudinary.com/western-university/image/upload/v1609558318/guy11_djsv4i.jpg",
+    "title": "White Shirt Brand What",
+    "description":
+      "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
+    "price": 15.5,
+    "__v": 0
+  },
+  {
+    "availableSizes": ["S", "M", "XL"],
+    "_id": "BuF5FY0um",
+    "gender": "women",
+    "image": "https://res.cloudinary.com/western-university/image/upload/v1609558320/girl12_z2mevi.jpg",
+    "title": "Black Ưhite Striped Shirt",
+    "description":
+      "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
+    "price": 24.7,
+    "__v": 0
+  },
+  {
+    "availableSizes": ["S", "M", "L", "X"],
+    "_id": "65mgGJ8MR",
+    "gender": "women",
+    "image": "https://res.cloudinary.com/western-university/image/upload/v1609558318/girl6_kgfflo.jpg",
+    "title": "Brown Short Hand Shirt",
+    "description":
+      "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
+    "price": 18.7,
+    "__v": 0
+  }
+]
+
