@@ -2,9 +2,9 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 
-const productRoute = require("./routes/productRoute");
-const orderRoute = require("./routes/orderRoute");
-const userRoute = require("./routes/userRoute");
+const productRoute = require("./backend/routes/productRoute");
+const orderRoute = require("./backend/routes/orderRoute");
+const userRoute = require("./backend/routes/userRoute");
 
 const app = express();
 
@@ -12,10 +12,10 @@ const path = require("path");
 
 app.use(bodyParser.json());
 
-// app.use(express.static(path.join(__dirname, "/frontend/build")));
-// app.get("*", (req, res) =>
-//   res.sendFile(path.join(__dirname, "/frontend/build/index.html"))
-// );
+app.use(express.static(path.join(__dirname, "/frontend/build")));
+app.get("*", (req, res) =>
+  res.sendFile(path.join(__dirname, "/frontend/build/index.html"))
+);
 
 app.use("/ecommerce/products", productRoute);
 app.use("/ecommerce/orders", orderRoute);
