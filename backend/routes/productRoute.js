@@ -7,8 +7,8 @@ const Product = require("../models/Product");
 const importData = require("../data.json");
 
 router.get("/", async (req, res) => {
-  // const products = await Product.find({});
-  res.send(importData);
+  const products = await Product.find({});
+  // res.send(importData);
 });
 
 router.post("/", async (req, res) => {
