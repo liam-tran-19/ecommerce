@@ -9,6 +9,7 @@ const importData = require("../data.json");
 router.get("/", async (req, res) => {
   const products = await Product.find({});
   // res.send(importData);
+  res.send(products);
 });
 
 router.post("/", async (req, res) => {
